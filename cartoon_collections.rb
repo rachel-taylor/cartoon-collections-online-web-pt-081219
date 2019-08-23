@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(veggies)
  veggies.each_with_index do  
-   {|veggies, index|}.capitalize
+   {|veggies, index|}
 end
 
 def long_planeteer_calls
