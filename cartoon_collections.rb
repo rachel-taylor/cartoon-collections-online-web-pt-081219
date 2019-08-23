@@ -1,7 +1,11 @@
 # require 'pry'
 
-def roll_call_dwarves(dwarves)
-    puts "#{dwarves}"
+def roll_call_dwarves(names)
+    counter = 0
+    while counter < names.size
+      puts "#{counter + 1}. #{names[counter]}"
+      counter += 1
+    end
 end
 
 def summon_captain_planet(veggies)
