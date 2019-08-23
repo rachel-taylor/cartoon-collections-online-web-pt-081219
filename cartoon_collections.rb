@@ -1,7 +1,7 @@
 require 'pry'
 
 def roll_call_dwarves(dwarves)
-    puts "#{dwarves}""
+    puts "#{dwarves}"
     binding.pry 
 end
 
