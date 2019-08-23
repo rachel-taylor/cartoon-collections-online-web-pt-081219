@@ -8,7 +8,11 @@ def roll_call_dwarves(names)
     end
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(array)
+    array.map do |x|
+      x = x.capitalize + "!"
+    end
+  
 end
 
 def long_planeteer_calls
