@@ -21,5 +21,5 @@ end
 def find_the_cheese
   food.find do |num|
     num == "cheddar" || num == "gouda" || num == "camembert"
-    
+  end 
 end
