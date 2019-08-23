@@ -1,8 +1,8 @@
-require 'pry'
+# require 'pry'
 
 def roll_call_dwarves(dwarves)
     puts "#{dwarves}"
-    binding.pry 
+    # binding.pry 
 end
 
 def summon_captain_planet(veggies)
