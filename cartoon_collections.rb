@@ -6,7 +6,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
- veggies.each_with_index {|veggies, index|}
+ veggies.each_with_index do  
+   {|veggies, index|}.capitalize
 end
 
 def long_planeteer_calls
